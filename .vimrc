@@ -2,6 +2,7 @@ set omnifunc=syntax#Complete
 
 set nocompatible
 
+<<<<<<< HEAD
 set rtp+=~/.vim/bundle/vundle/
 
 call vundle#rc()
@@ -33,6 +34,7 @@ Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-repeat'
 Plugin 'airblade/vim-gitgutter'
 
+
 " Get rid of bell
 set noeb vb t_vb=
 au GUIEnter * set vb t_vb=
@@ -61,7 +63,6 @@ syntax on
 
 
 " Just some gui settings
-set background=dark
 set guifont=Inconsolata:h14
 set guioptions-=m
 set guioptions-=T
